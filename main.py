@@ -3,4 +3,9 @@ def main():
         file_contents = f.read()
         return file_contents
 
-print(main())
+def num_words(text):
+    words = text.split()
+    print (f"{len(words)} words found in the document")
+
+
+num_words(main())
